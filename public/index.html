@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Assignment</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <ink rel="stylesheet" href="css/animate.css"></link>   In order to get wowjs to work! -->
+</head>
+
+<body>
+
+  <header>
+    <!-- TITLE  -->
+    <h1>Ludvig's Login-service!</h1>
+  </header>
+
+  <main>
+    <!-- Center section of the website -->
+    <div class="login-page">
+      <div class="form">
+        <div class="form">
+
+          <!-- REGISTER -->
+          <form class="register-form">
+            <input type="text" placeholder="Name" />
+            <input type="password" placeholder="Password" id="register-password" />
+            <input type="text" placeholder="Email address" id="register-email" />
+            <button>create</button>
+            <p class="message">Already registered? <a href="#">Sign In</a></p>
+          </form>
+
+          <!-- LOGIN -->
+          <form class="login-form">
+            <input type="text" placeholder="Username" />
+            <input type="password" placeholder="Password" />
+            <button>login</button>
+            <p class="message">Not registered? <a href="#">Create an account</a></p>
+          </form>
+        </div>
+      </div>
+  </main>
+
+  <!-- FOOTER  -->
+  <footer>&copy;2021 - Ludvig J</footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="app.js"></script>
+  <!-- <script src="js/wow.min.js"></script>  -->
+  <!-- In order to enable wow js -->
+  <!-- <script>
+    new WOW().init();
+  </script> -->
+</body>
+
+</html>
+
+<!-- Todo: -->
+<!-- Make it so the "create an account/sign in" function works (problem occuring with app.js I assume?)  -->
+<!-- Fix tiny gap to the left in FOOTER -->
+<!-- Connect frontend/backend -->
+
+<!-- Extras: -->
+<!-- Add wowjs to the header, looks really cool! ====> https://wowjs.uk/docs.html -->
+<!-- Add a JPEG or GIF as background to spice things up a little? -->
